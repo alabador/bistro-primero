@@ -22,7 +22,6 @@ header {
     padding: 0 8vw;
     background-image: url(https://images.unsplash.com/photo-1494859802809-d069c3b71a8a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
     background-size: cover;
-
 }
 
 @media screen and (max-width: 600px) {
@@ -135,8 +134,8 @@ nav {
 .about-us {
     background-color: rgb(238, 238, 238);
     padding: 4rem 0;
-    padding-left: 40%;
-    padding-right: 20%; 
+    padding-left: 50%;
+    padding-right: 15%; 
 
     background-image: url(https://images.unsplash.com/photo-1555243896-c709bfa0b564?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
     background-size: cover;
@@ -145,7 +144,9 @@ nav {
 
 @media screen and (max-width: 901px) {
     .about-us {
-        background-position-x: -100px; 
+        padding-left: 60%;
+        padding-right: 10%;
+        background-position-x: -100px;
     }
 }
 @media screen and (max-width: 750px) {
@@ -156,6 +157,8 @@ nav {
 @media screen and (max-width: 600px) {
     .about-us {
         background-position-x: -400px; 
+        padding-left: 50%;
+        padding-right: 20%;
     }
 }
 
