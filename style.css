@@ -113,6 +113,7 @@ nav {
 .social-stat-container {
     display: flex;
     gap: .2rem;
+    font-size: 1.4rem;
 }
 
 .social-stat-container i {
@@ -194,6 +195,7 @@ h3 {
 
 .about-us p {
     line-height: 2rem;
+    font-size: 1.4rem;
 }
 
 .four-card-promo-section {
