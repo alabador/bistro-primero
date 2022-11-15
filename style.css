@@ -161,6 +161,16 @@ nav {
         padding-right: 20%;
     }
 }
+@media screen and (max-width: 450px) {
+    .about-us {
+        background-position-x: -600px; 
+        padding-left: 40%;
+        padding-right: 20%;
+    }
+    .hero h1 {
+        font-size: 4.2rem;
+    }
+}
 
 .about-us * {
     margin: 2rem 0;
@@ -176,6 +186,12 @@ h3 {
     font-family: 'DM Serif Text', 'serif';
 }
 
+@media screen and (max-width: 600px) {
+    .about-us h1 {
+        font-size: 3.6rem;
+    }
+}
+
 .about-us p {
     line-height: 2rem;
 }
@@ -188,7 +204,8 @@ h3 {
 }
 
 .meal-selection {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     padding: 3rem 0 2rem;
     border-bottom: 1px solid lightgray;
 }
@@ -200,19 +217,26 @@ h3 {
 
 .meal-selection ul {
     display: flex;
+    justify-content: center;
     gap: 4rem;
+}
+
+@media screen and (max-width: 360px) {
+    .meal-selection {
+        display: none;
+    }
 }
 
 .four-cards {
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: center;
     padding: 4rem 0;
     gap: 1rem; 
 }
 
 .four-cards img {
     background-color: gray;
-    width: 25%;
+    max-width: 25%;
 }
 
 .contact {
@@ -266,7 +290,22 @@ h3 {
 @media screen and (max-width: 600px) {
     iframe {
         width: 320px;
+        height: 200px;
     }
+}
+@media screen and (max-width: 420px) {
+    iframe {
+        min-width: 200px;
+        min-height: 160px;
+    }
+    .hours h4 {
+        font-size: 1.4rem;
+    }
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
 }
 
 .video {
